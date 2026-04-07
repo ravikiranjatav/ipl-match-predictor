@@ -17,9 +17,8 @@ venues = ['Wankhede Stadium', 'Eden Gardens', 'M Chinnaswamy Stadium',
           'Feroz Shah Kotla', 'MA Chidambaram Stadium',
           'Rajiv Gandhi International Stadium',
           'Punjab Cricket Association Stadium',
-          'Sawai Mansingh Stadium', 'Narendra Modi Stadium']
-
-# Manual mappings (IMPORTANT)
+          'Sawai Mansingh Stadium', 'Narendra Modi Stadium',
+          'Barsapara Cricket Stadium']# Manual mappings (IMPORTANT)
 team_mapping = {team: i for i, team in enumerate(teams)}
 venue_mapping = {venue: i for i, venue in enumerate(venues)}
 
